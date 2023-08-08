@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452) ;
+}
+.calculator{
+    background: #3a4454;
+    border-radius:1px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: transparent
+}
+input{
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    box-shadow: 0px 3px 15px rgbs(84, 85, 85, );
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+input::placeholder{
+    color: white;
+
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+.op{
+    color: rgb(17, 255, 0);
+}
+/* 
+.calculator  {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:#e3f9ff ;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.calculator{
+    background: #3a4454;
+    border-radius:.2rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator  {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-self: flex-end;
+    margin: 20px 0;
+}
+form .display  input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.eq{
+    width: 145px;
+}
+form input.op{
+    color: rgb(17, 255, 0);
+} */
