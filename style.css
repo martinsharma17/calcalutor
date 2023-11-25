@@ -11,20 +11,41 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #090909, #365278); 
+    background: rgb(26, 191, 232); 
+
 }
 
+.container{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 .calculator {
+
     background: #3a4454;
     border-radius: 1px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 8px 8px 15px rgba(109, 55, 55, 0.1), 5px 5px 15px rgba(189, 106, 71, 0.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
     border-radius: 10px;
-    background: transparent
+
 }
 
+.op:hover {
+    background: #e4eb0d;
+    color: red;
+}
+
+.op1:hover {
+    background: #e4eb0d;
+    color: red;
+}
+#inputbox{
+    border: 0.1px solid rgb(232, 226, 226);
+    background-color: rgb(109, 82, 88);
+    border-radius: 10px;
+
+}
 input {
+  
     width: 320px;
     padding: 24px;
     margin: 10px;
